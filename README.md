@@ -8,21 +8,21 @@ This project is suitable for academic submissions, mini-projects, and placement 
 
 🧠 Key Features
 👤 User Features
---->User Registration & Login
---->View available cars
---->Book a car
---->View booking history
---->Return booked cars
---->Submit feedback
---->Logout securely
+1. User Registration & Login
+2. View available cars
+3. Book a car
+4. View booking history
+5. Return booked cars
+6. Submit feedback
+7. Logout securely
 
 🛠️ Admin Features
---->Admin Login
---->Add new cars
---->Delete existing cars
---->Approve or reject bookings
---->View user feedback
---->Admin dashboard
+1. Admin Login
+2. Add new cars
+3. Delete existing cars
+4. Approve or reject bookings
+5. View user feedback
+6. Admin dashboard
 
 🧱 Project Architecture
 
@@ -31,49 +31,6 @@ Controller → Servlets handle requests
 Model → Java classes represent data
 DAO → Database interaction using JDBC
 View → JSP pages for UI
-
-📂 Project Structure
-
-CarRentalProject/
-│
-├── src/main/java
-│   └── com.carrental
-│       ├── controller
-│       │   ├── AddCarServlet.java
-│       │   ├── AdminLoginServlet.java
-│       │   ├── ApproveBooking.java
-│       │   ├── BookingServlet.java
-│       │   ├── DeleteCarServlet.java
-│       │   ├── FeedbackServlet.java
-│       │   ├── LoginServlet.java
-│       │   ├── LogoutServlet.java
-│       │   ├── RegisterServlet.java
-│       │   └── ReturnCarServlet.java
-│       │
-│       ├── dao
-│       ├── model
-│       └── util
-│
-├── src/main/webapp
-│   ├── css/
-│   ├── images/
-│   ├── WEB-INF/
-│   ├── add_car.jsp
-│   ├── admin_dashboard.jsp
-│   ├── adminlogin.jsp
-│   ├── book.jsp
-│   ├── booking_success.jsp
-│   ├── dashboard.jsp
-│   ├── feedback.jsp
-│   ├── login.jsp
-│   ├── mybookings.jsp
-│   ├── register.jsp
-│   └── view_feedback.jsp
-│
-├── src/test/java
-├── src/test/resources
-├── pom.xml
-└── README.md
 
 
 🛠️ Technology Stack
@@ -91,12 +48,12 @@ IDE                      	 Eclipse / IntelliJ
 
 ⚙️ Prerequisites
 
---->Before running the project, ensure you have:
---->Java JDK 8+
---->Apache Tomcat 9+
---->MySQL Server
---->Maven
---->IDE (Eclipse / IntelliJ)
+1. Before running the project, ensure you have:
+2. Java JDK 8+
+3. Apache Tomcat 9+
+4. MySQL Server
+5. Maven
+6. IDE (Eclipse / IntelliJ)
 
 
 💽 Database Setup
@@ -133,18 +90,18 @@ Admin → Manages cars and bookings
 
 📸 Screens (Optional)
 
---->Login Page
---->User Dashboard
---->Admin Dashboard
---->Booking Page
---->Feedback Page
+1. Login Page
+2. User Dashboard
+3. Admin Dashboard
+4. Booking Page
+5. Feedback Page
 
 🎯 Learning Outcomes
---->Hands-on experience with Servlets & JSP
---->MVC architecture understanding
---->JDBC & database connectivity
---->Session management
---->Web application deployment using Tomcat
+1. Hands-on experience with Servlets & JSP
+2. MVC architecture understanding
+3. JDBC & database connectivity
+4. Session management
+5. Web application deployment using Tomcat
 
 📄 License
 
